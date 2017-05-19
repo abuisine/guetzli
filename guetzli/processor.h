@@ -30,7 +30,7 @@ struct Params {
   float butteraugli_target = 1.0;
   bool clear_metadata = true;
   bool try_420 = false;
-  bool force_420 = false;
+  bool force_420 = true;
   bool use_silver_screen = false;
   int zeroing_greedy_lookahead = 3;
   bool new_zeroing_model = true;
